@@ -1,0 +1,1 @@
+# LatinX-Student-Union
