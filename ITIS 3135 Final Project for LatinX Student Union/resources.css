@@ -1,0 +1,191 @@
+/* Existing Styles */
+body {
+    background-color: #E8E0D9;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FB9609;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+nav {
+    background-color: #FB9609;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000000;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+table {
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    margin: 20px 0;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #FB9609;
+}
+
+footer {
+    background-color: #FB9609;
+    color: #000000; 
+    text-align: left;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #02135c;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    max-width: 30px;
+    max-height: 30px;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+img {
+    margin-right: 5px;
+}
+
+.logo {
+    margin-right: 2000px;
+    padding: 0;
+}
+
+h2 {
+    margin-left: 25px;
+}
+
+form label {
+    margin-left: 25px;
+}
+
+form input {
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+/*  Login Section */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.login-section * {
+    font-family: Raleway;
+}
+
+.login-section html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DFDFDF;
+}
+
+/* Popup Styles */
+.popup {
+    background-color: #ffffff;
+    width: 300px;
+    padding: 20px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    display: none;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.popup button {
+    display: block;
+    margin: 0 0 10px auto;
+    background-color: transparent;
+    font-size: 20px;
+    color: #c5c5c5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.popup p {
+    font-size: 14px;
+    text-align: justify;
+    margin: 10px 0;
+    line-height: 20px;
+}
+
+.popup a {
+    display: block;
+    width: 100px;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #0f72e5;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+#error {
+    font-size: 14px;
+    font-style: italic;
+    color: #db1f1f;
+    margin: 0 0 5px 35px;
+}
+
+button {
+    margin: 5px;
+    margin-left: 25px;
+    font-size: 16px;
+    padding: 0 5px;
+}
+
+.newsletter {
+    display: inline-block;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3px;
+    background-color: #9baadd;
+    padding: 25px 50px;
+    margin-left: 50px;
+    margin-bottom: 35px;
+}

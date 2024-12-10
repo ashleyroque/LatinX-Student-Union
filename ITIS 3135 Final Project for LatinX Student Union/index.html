@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LatinX Student Union</title>
+    <link rel="icon" type="image/x-png" href="LXSU-Logo.png">
+    <meta name="keywords" content="HTML, Element, Tag">
+    <meta name="author" content="Ashley Roque">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Link the CSS file to this HTML file -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header>
+    <!-- Weather section -->
+    <section id="weather-section">
+        <div class="weather-container">
+            <h5>UNCC Weather</h5>
+            <p id="Temperature"></p>
+            <p id="Conditions"></p>
+            <p id="Wind"></p>
+            <p id="Humidity"></p>
+        </div>
+    </section>
+    <div class="logo">
+        <img src="LXSU-Logo.png" alt="LXSU Logo" width="100" height="100">
+    </div>
+    <h1>LatinX Student Union</h1>
+</header>
+
+<nav>
+    <a href="index.html">About Us</a>
+    <a href="membership.html">Membership</a>
+    <a href="events.html">Events</a>
+    <a href="resources.html">Resources</a>
+</nav>
+
+<main>
+    <section>
+        <h1>Our Mission</h1>
+        <p>Our mission is to unite the Latinx population and empower them to serve communities in need. 
+        We will connect our members with resources that will aid them in their collegiate career and inspire them to use their skills for service to others. 
+        We will embrace our heritage and cultural roots and build a culture of service within the Latinx community. 
+        Our objectives serve to aid in our mission and are as follows:
+        </p>
+        <ul>
+            <li>Serve as the liaison between Latinx students and UNC Charlotte</li>
+            <li>Empower our members to provide community service to the people of Charlotte and surrounding areas</li>
+            <li>Work with University departments to initiate programs fit to meet the rising needs of Latinx students</li>
+            <li>Connect members to professional and academic resources from both UNC Charlotte and surrounding areas</li>
+            <li>Unite Latinx organizations, Latinx Faculty and Staff, and Latinx students in order to achieve our objectives</li>
+        </ul>
+        <h2>History of LXSU</h2>
+        <p>The LatinX Student Union was founded in [year] by a group of students.... etc</p>
+        <h2>Why do we use LatinX?</h2>
+        <p>LatinX is a gender inclusive term that is used to refer to people of Latin.... etc</p>
+    </section>
+</main>
+
+<footer>
+    <hr>
+    <h3>Get In Touch</h3>
+    <p>9201 University City Blvd<br>Charlotte, NC 28223</p>
+    <p><img src="email.webp" alt="Email Icon" width="50"> <a href="mailto:uncclatinxstudentunion@gmail.com">uncclatinxstudentunion@gmail.com</a></p>
+    <p><img src="ig.png" alt="Instagram Icon" width="50"> <a href="https://www.instagram.com/lxsuclt/" target="_blank">Instagram</a></p>
+    <p><img src="linkedin.png" alt="LinkedIn Icon" width="50"> <a href="https://www.linkedin.com/company/lxsuclt/" target="_blank">LinkedIn</a></p>
+    <p>Copyright &copy; 2024 LatinX Student Union</p>
+</footer>
+
+<div class="popup">
+    <button id="close">&times;</button>
+    <h2>Sign Up for Our Weekly Newsletters ✉️</h2>
+    <p>To stay updated on the latest opportunities, workshop events, networking activities, and upcoming meetings. See the resources page for more information.</p>
+    <a href="#">Got it!🙂</a>
+</div>
+
+<!-- Script for Weather -->
+<script src="weather.js"></script>
+
+<!-- Main Script -->
+<script src="index.js"></script>
+
+</body>
+</html>
